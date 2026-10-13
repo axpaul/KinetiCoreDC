@@ -661,7 +661,7 @@
         "uuid": "ad728afb-7a1e-46d6-a0a8-a62e241bf0c4"
       }
     ],
-    "used_designators": "D2,#PWR15,#PWR18-28,#PWR42,#PWR50-53,#PWR56-59,J1-3,R15-20,R27-28,U3-4,U10,C4,C7-9,C11-14,FL1",
+    "used_designators": "D2,D8-9,#PWR15,#PWR18-28,#PWR42-43,#PWR50-53,#PWR56-60,J1-3,R15-22,R27-34,U3-4,U10,C4,C7-9,C11-16,FL1",
     "variants": []
   },
   "sheets": [
@@ -672,6 +672,10 @@
     [
       "f6a886ae-cdf7-407e-a301-78e631985a76",
       "InterfaceSheet"
+    ],
+    [
+      "64bd8f60-58d6-4027-b428-d45fc2eafed0",
+      "DriverMotorSheet"
     ]
   ],
   "text_variables": {},

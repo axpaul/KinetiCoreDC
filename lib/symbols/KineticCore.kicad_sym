@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Value" "DRV8874PWPR"
-			(at -12.7 -26.86 0)
+			(at -13.208 -25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -177,7 +177,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 7.62 0)
+				(at -17.78 11.43 0)
 				(length 5.08)
 				(name "EN/IN1"
 					(effects
@@ -195,7 +195,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 0 0)
+				(at -17.78 8.89 0)
 				(length 5.08)
 				(name "PH/IN2"
 					(effects
@@ -213,7 +213,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 2.54 0)
+				(at -17.78 6.35 0)
 				(length 5.08)
 				(name "NSLEEP"
 					(effects
@@ -231,7 +231,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -10.16 0)
+				(at -17.78 13.97 0)
 				(length 5.08)
 				(name "NFAULT"
 					(effects
@@ -249,7 +249,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -5.08 0)
+				(at -17.78 -11.43 0)
 				(length 5.08)
 				(name "VREF"
 					(effects
@@ -267,7 +267,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 7.62 180)
+				(at -17.78 3.81 0)
 				(length 5.08)
 				(name "IPROPI"
 					(effects
@@ -285,7 +285,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 5.08 0)
+				(at -17.78 -3.81 0)
 				(length 5.08)
 				(name "IMODE"
 					(effects
@@ -303,7 +303,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 5.08 180)
+				(at 17.78 1.27 180)
 				(length 5.08)
 				(name "OUT1"
 					(effects
@@ -339,7 +339,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 2.54 180)
+				(at 17.78 -1.27 180)
 				(length 5.08)
 				(name "OUT2"
 					(effects
@@ -447,7 +447,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -2.54 0)
+				(at -17.78 -19.05 0)
 				(length 5.08)
 				(name "PMODE"
 					(effects
