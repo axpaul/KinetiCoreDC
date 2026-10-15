@@ -1392,8 +1392,8 @@
 		)
 	)
 	(rectangle
-		(start 36.83 149.86)
-		(end 88.9 182.88)
+		(start 36.83 144.78)
+		(end 88.9 177.8)
 		(stroke
 			(width 0.0508)
 			(type solid)
@@ -1450,7 +1450,7 @@
 	)
 	(text "Output Status Indicator"
 		(exclude_from_sim no)
-		(at 54.356 153.416 0)
+		(at 54.102 147.828 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -1463,7 +1463,7 @@
 	)
 	(text "Bi-directional LED polarity and activity indicator\nacross H-bridge outputs"
 		(exclude_from_sim no)
-		(at 38.862 157.734 0)
+		(at 38.608 152.146 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1485,13 +1485,13 @@
 		(uuid "097c9116-d9b0-4452-8212-4a91049d61f6")
 	)
 	(junction
-		(at 67.31 176.53)
+		(at 67.31 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a423850-72fc-437d-bbbe-c904fcc144bd")
 	)
 	(junction
-		(at 67.31 168.91)
+		(at 67.31 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1754dfd0-611a-4eab-b2ba-5f6c5de57a59")
@@ -1564,7 +1564,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 175.26) (xy 64.77 176.53)
+			(xy 64.77 170.18) (xy 64.77 171.45)
 		)
 		(stroke
 			(width 0)
@@ -1614,7 +1614,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 167.64) (xy 67.31 167.64)
+			(xy 62.23 162.56) (xy 67.31 162.56)
 		)
 		(stroke
 			(width 0)
@@ -1674,7 +1674,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 177.8) (xy 67.31 176.53)
+			(xy 67.31 172.72) (xy 67.31 171.45)
 		)
 		(stroke
 			(width 0)
@@ -1714,7 +1714,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 168.91) (xy 67.31 168.91)
+			(xy 64.77 163.83) (xy 67.31 163.83)
 		)
 		(stroke
 			(width 0)
@@ -1734,7 +1734,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 167.64) (xy 67.31 168.91)
+			(xy 67.31 162.56) (xy 67.31 163.83)
 		)
 		(stroke
 			(width 0)
@@ -1744,7 +1744,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 177.8) (xy 67.31 177.8)
+			(xy 55.88 172.72) (xy 67.31 172.72)
 		)
 		(stroke
 			(width 0)
@@ -1774,7 +1774,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 170.18) (xy 64.77 168.91)
+			(xy 64.77 165.1) (xy 64.77 163.83)
 		)
 		(stroke
 			(width 0)
@@ -1784,7 +1784,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 167.64) (xy 57.15 167.64)
+			(xy 55.88 162.56) (xy 57.15 162.56)
 		)
 		(stroke
 			(width 0)
@@ -1804,7 +1804,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 175.26) (xy 69.85 176.53)
+			(xy 69.85 170.18) (xy 69.85 171.45)
 		)
 		(stroke
 			(width 0)
@@ -1894,7 +1894,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 168.91) (xy 69.85 168.91)
+			(xy 67.31 163.83) (xy 69.85 163.83)
 		)
 		(stroke
 			(width 0)
@@ -2014,7 +2014,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 168.91) (xy 69.85 170.18)
+			(xy 69.85 163.83) (xy 69.85 165.1)
 		)
 		(stroke
 			(width 0)
@@ -2084,7 +2084,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 176.53) (xy 67.31 176.53)
+			(xy 64.77 171.45) (xy 67.31 171.45)
 		)
 		(stroke
 			(width 0)
@@ -2194,7 +2194,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 176.53) (xy 69.85 176.53)
+			(xy 67.31 171.45) (xy 69.85 171.45)
 		)
 		(stroke
 			(width 0)
@@ -2270,7 +2270,7 @@
 	)
 	(hierarchical_label "OUTB"
 		(shape bidirectional)
-		(at 55.88 177.8 180)
+		(at 55.88 172.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2281,7 +2281,7 @@
 	)
 	(hierarchical_label "OUTA"
 		(shape bidirectional)
-		(at 55.88 167.64 180)
+		(at 55.88 162.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3024,7 +3024,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 59.69 167.64 90)
+		(at 59.69 162.56 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3034,7 +3034,7 @@
 		(dnp no)
 		(uuid "5ce0f204-68f0-4cb6-81fd-f95bc5ac595c")
 		(property "Reference" "R30"
-			(at 59.69 165.862 90)
+			(at 59.69 160.782 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3044,7 +3044,7 @@
 			)
 		)
 		(property "Value" "2K"
-			(at 59.69 169.672 90)
+			(at 59.69 164.592 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3054,7 +3054,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 59.69 167.64 0)
+			(at 59.69 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3065,7 +3065,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 167.64 0)
+			(at 59.69 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3076,7 +3076,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 59.69 167.64 0)
+			(at 59.69 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3874,7 +3874,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 64.77 172.72 270)
+		(at 64.77 167.64 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3884,7 +3884,7 @@
 		(dnp no)
 		(uuid "8b99740f-00d8-4a8e-ab06-ad1783cb7902")
 		(property "Reference" "D9"
-			(at 62.992 172.72 90)
+			(at 62.992 167.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3895,7 +3895,7 @@
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 62.23 171.5136 90)
+			(at 62.23 166.4336 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3907,7 +3907,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 64.77 172.72 90)
+			(at 64.77 167.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3918,7 +3918,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 172.72 90)
+			(at 64.77 167.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3929,7 +3929,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 64.77 172.72 0)
+			(at 64.77 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3940,7 +3940,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 64.77 172.72 0)
+			(at 64.77 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5072,7 +5072,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 69.85 172.72 90)
+		(at 69.85 167.64 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5082,7 +5082,7 @@
 		(dnp no)
 		(uuid "d452f029-64f9-4fad-a874-ae40ce9b163d")
 		(property "Reference" "D8"
-			(at 71.628 172.72 90)
+			(at 71.628 167.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5093,7 +5093,7 @@
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 72.39 173.9264 90)
+			(at 72.39 168.8464 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5105,7 +5105,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 69.85 172.72 90)
+			(at 69.85 167.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5116,7 +5116,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 172.72 90)
+			(at 69.85 167.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5127,7 +5127,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 69.85 172.72 0)
+			(at 69.85 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5138,7 +5138,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 69.85 172.72 0)
+			(at 69.85 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
