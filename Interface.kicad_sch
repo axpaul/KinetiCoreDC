@@ -6719,8 +6719,8 @@
 				)
 			)
 		)
-		(property "Value" "1K"
-			(at 258.826 107.442 0)
+		(property "Value" "470R"
+			(at 260.35 107.442 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7440,7 +7440,7 @@
 		(dnp no)
 		(uuid "437cc653-d90b-44cf-a493-434d3bb32605")
 		(property "Reference" "R23"
-			(at 168.402 32.766 0)
+			(at 168.91 32.258 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7450,7 +7450,7 @@
 			)
 		)
 		(property "Value" "2.2K"
-			(at 169.672 30.988 0)
+			(at 169.672 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12857,8 +12857,8 @@
 				)
 			)
 		)
-		(property "Value" "1K"
-			(at 175.006 107.442 0)
+		(property "Value" "470R"
+			(at 176.276 107.442 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
