@@ -3263,7 +3263,7 @@
 	)
 	(rectangle
 		(start 16.51 16.51)
-		(end 101.6 71.12)
+		(end 100.33 71.12)
 		(stroke
 			(width 0.0508)
 			(type solid)

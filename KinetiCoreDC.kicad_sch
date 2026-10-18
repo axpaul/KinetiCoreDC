@@ -2439,7 +2439,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 99.06) (xy 138.43 99.06)
+			(xy 137.16 99.06) (xy 167.64 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2469,6 +2469,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 111.76) (xy 167.64 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f21ebde-0d52-4a6d-8a9d-4d71f8ae8e44")
+	)
+	(wire
+		(pts
 			(xy 96.52 95.25) (xy 96.52 96.52)
 		)
 		(stroke
@@ -2479,7 +2489,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 104.14) (xy 138.43 104.14)
+			(xy 137.16 104.14) (xy 167.64 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2529,6 +2539,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 114.3) (xy 167.64 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78e4f9fa-14e5-4c99-91cd-70d4d642e2e5")
+	)
+	(wire
+		(pts
 			(xy 58.42 50.8) (xy 59.69 50.8)
 		)
 		(stroke
@@ -2569,13 +2589,23 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 101.6) (xy 138.43 101.6)
+			(xy 137.16 101.6) (xy 167.64 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "be003bad-d9bf-4295-bb27-3aee2d7ca079")
+	)
+	(wire
+		(pts
+			(xy 137.16 96.52) (xy 138.43 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6792044-9bdf-42b6-913d-ebbb4ffc25a7")
 	)
 	(wire
 		(pts
@@ -2639,7 +2669,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 96.52) (xy 88.9 96.52)
+			(xy 85.09 96.52) (xy 88.9 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2697,6 +2727,16 @@
 		)
 		(uuid "6145bed0-fc9e-496c-bb55-66dea5e613ec")
 	)
+	(label "TIM3_CH1"
+		(at 138.43 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "66bce6d4-bf88-4f74-abc2-38d2ab68d97b")
+	)
 	(label "USART2_RX"
 		(at 138.43 104.14 0)
 		(effects
@@ -2716,6 +2756,16 @@
 			(justify right bottom)
 		)
 		(uuid "773d6648-3f94-43a2-b9d0-f5893a475575")
+	)
+	(label "ADC_IN0"
+		(at 138.43 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "78426101-6cc4-46a8-9524-aa4322b3ebf3")
 	)
 	(label "SWCLK"
 		(at 43.18 55.88 180)
@@ -2737,8 +2787,18 @@
 		)
 		(uuid "7f869565-921f-462a-bf82-3680da476a9d")
 	)
+	(label "TIM3_CH2"
+		(at 138.43 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "86ccc97e-ef8e-4256-b0a1-8b8e78eb5838")
+	)
 	(label "NRST"
-		(at 87.63 96.52 180)
+		(at 85.09 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4344,7 +4404,53 @@
 		)
 	)
 	(sheet
-		(at 142.24 27.94)
+		(at 21.59 104.14)
+		(size 43.18 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "561ef4b4-71d9-44e2-bbd1-cdbd76221875")
+		(property "Sheetname" "ConnectorSheet"
+			(at 21.59 103.4284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connector.kicad_sch"
+			(at 21.59 136.4746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "KinetiCoreDC"
+				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 176.53 30.48)
 		(size 35.56 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4360,7 +4466,7 @@
 		)
 		(uuid "64bd8f60-58d6-4027-b428-d45fc2eafed0")
 		(property "Sheetname" "DriverMotorSheet"
-			(at 142.24 27.2284 0)
+			(at 176.53 29.7684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4371,7 +4477,7 @@
 			)
 		)
 		(property "Sheetfile" "DriverMotor.kicad_sch"
-			(at 142.24 57.7346 0)
+			(at 176.53 60.2746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4382,83 +4488,83 @@
 			)
 		)
 		(pin "EN{slash}IN1_MCU" input
-			(at 177.8 34.29 0)
+			(at 176.53 53.34 180)
 			(uuid "bc3cb6bd-bca4-4950-a008-6e6ba81def72")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "IPROPI_MCU" output
-			(at 177.8 44.45 0)
+			(at 176.53 43.18 180)
 			(uuid "97e60b45-ee16-42a3-9de9-a1c8519b2fd5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "NFAULT_MCU" bidirectional
-			(at 177.8 49.53 0)
+			(at 176.53 38.1 180)
 			(uuid "8558df27-e25d-48e9-97b5-2993e42a1c4c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "NSLEEP_MCU" input
-			(at 177.8 52.07 0)
+			(at 176.53 35.56 180)
 			(uuid "fe84443e-467b-4b42-b0ca-6d33b014f4c4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "OUTA" bidirectional
-			(at 142.24 36.83 180)
+			(at 212.09 50.8 0)
 			(uuid "d9637a8b-40a2-4360-b243-d41fe81f7b3e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "OUTB" bidirectional
-			(at 142.24 39.37 180)
+			(at 212.09 48.26 0)
 			(uuid "dd58d3e1-c6fb-4afa-a638-489a1eba5c4c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "PH{slash}IN2_MCU" input
-			(at 177.8 36.83 0)
+			(at 176.53 50.8 180)
 			(uuid "9f240e65-bdf0-46a6-9b49-ae917a9a7fa0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "PMODE_MCU" input
-			(at 177.8 46.99 0)
+			(at 176.53 40.64 180)
 			(uuid "688f4009-2f81-4951-9f4b-870e7635dce3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
@@ -4470,8 +4576,8 @@
 		)
 	)
 	(sheet
-		(at 100.33 27.94)
-		(size 35.56 24.13)
+		(at 167.64 92.71)
+		(size 35.56 41.91)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4486,7 +4592,7 @@
 		)
 		(uuid "f6a886ae-cdf7-407e-a301-78e631985a76")
 		(property "Sheetname" "InterfaceSheet"
-			(at 100.33 27.2284 0)
+			(at 167.64 91.9984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4497,7 +4603,7 @@
 			)
 		)
 		(property "Sheetfile" "Interface.kicad_sch"
-			(at 100.33 52.6546 0)
+			(at 167.64 135.2046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4508,88 +4614,98 @@
 			)
 		)
 		(pin "OPTO1_EXT_N" output
-			(at 100.33 46.99 180)
+			(at 203.2 100.33 0)
 			(uuid "b49231b1-76a8-4bc9-af47-8f590e53f4fb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "OPTO1_EXT_P" input
-			(at 100.33 49.53 180)
+			(at 203.2 97.79 0)
 			(uuid "962b68be-70a3-4ed1-8efe-3b624a8f47f8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "OPTO1_MCU" output
-			(at 135.89 33.02 0)
+			(at 167.64 125.73 180)
 			(uuid "2fa4cc80-5b60-48ff-93dd-a4913ed3460b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "OPTO2_EXT_N" output
-			(at 100.33 41.91 180)
+			(at 203.2 105.41 0)
 			(uuid "42f14015-5245-43ac-bbba-5a44d0675f2c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "OPTO2_EXT_P" input
-			(at 100.33 44.45 180)
+			(at 203.2 102.87 0)
 			(uuid "0d9d9709-840c-4d45-b95b-58add86b6060")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "OPTO2_MCU" output
-			(at 135.89 35.56 0)
+			(at 167.64 128.27 180)
 			(uuid "186d0811-e28f-466a-8bf8-4c26420cd4c3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "TRIG1_EXT" input
-			(at 100.33 33.02 180)
+			(at 203.2 114.3 0)
 			(uuid "9102a089-b1db-49d3-846f-a944c8f3a466")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "TRIG1_MCU" output
-			(at 135.89 45.72 0)
+			(at 167.64 119.38 180)
 			(uuid "bb965b16-4469-4083-b91c-cf27313d37d1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "TRIG2_EXT" input
-			(at 100.33 35.56 180)
+			(at 203.2 111.76 0)
 			(uuid "6f6aff26-6f85-4faf-99c1-b551c09fd092")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TRIG2_MCU" output
+			(at 167.64 121.92 180)
+			(uuid "3056c798-9a7b-43d0-92db-9b344af526fe")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4597,14 +4713,94 @@
 				(justify left)
 			)
 		)
-		(pin "TRIG2_MCU" output
-			(at 135.89 48.26 0)
-			(uuid "3056c798-9a7b-43d0-92db-9b344af526fe")
+		(pin "ENC_A_IN" input
+			(at 203.2 129.54 0)
+			(uuid "53bcc8cb-f6ad-4d20-ab70-b717982ea5b0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "ENC_B_IN" input
+			(at 203.2 127 0)
+			(uuid "91f2cc9b-54a7-4f5e-8b92-6eaec60ce1e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RS485_A_EXT" input
+			(at 203.2 119.38 0)
+			(uuid "a35a65dd-9881-4c77-a122-86a03aab8c22")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RS485_B_EXT" input
+			(at 203.2 121.92 0)
+			(uuid "46a34f1c-6137-4003-b950-1dd96a48f304")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RS485_DE_MCU" bidirectional
+			(at 167.64 99.06 180)
+			(uuid "0e2d7912-2aa5-4a46-8ae4-286776b90baa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RS485_RX_MCU" input
+			(at 167.64 104.14 180)
+			(uuid "016b313b-c281-41fc-9197-0a5fe761843b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RS485_TX_MCU" input
+			(at 167.64 101.6 180)
+			(uuid "6ca76f34-0364-4e79-be1f-517c6400d2b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TIM_ENC_A" output
+			(at 167.64 111.76 180)
+			(uuid "8a8a4a61-7bab-4ad9-a0d6-d32a6915a75e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TIM_ENC_B" output
+			(at 167.64 114.3 180)
+			(uuid "43aa2439-23b3-41c4-903a-d2e637f10c11")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

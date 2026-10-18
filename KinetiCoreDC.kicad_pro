@@ -661,7 +661,7 @@
         "uuid": "ad728afb-7a1e-46d6-a0a8-a62e241bf0c4"
       }
     ],
-    "used_designators": "D1,D3,D12-14,#PWR27,#PWR29-42,#PWR48-49,#PWR54-55,#PWR57-59,#PWR67-81,R21-26,R29,R32-33,R42-50,U4-5,U10,U12-13,C7-8,C10,C13-14,C20-27,84.5k1,Q3-4,SW1-2",
+    "used_designators": "Q1,R7-12,R24,R26,R43-45,R49,R52,D4,D14,D16,#PWR9-18,#PWR49,#PWR68,#PWR73,#PWR77-81,#PWR83-84,C3-6,C21,C25-27,SW2,U2,U5,U11,U13",
     "variants": []
   },
   "sheets": [
@@ -680,6 +680,10 @@
     [
       "41fff61d-8b1a-4097-860c-8c796f203602",
       "PowerSheet"
+    ],
+    [
+      "561ef4b4-71d9-44e2-bbd1-cdbd76221875",
+      "ConnectorSheet"
     ]
   ],
   "text_variables": {},
