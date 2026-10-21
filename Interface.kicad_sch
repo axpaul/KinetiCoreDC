@@ -3873,7 +3873,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 87.63) (xy 87.63 91.44)
+			(xy 87.63 86.36) (xy 87.63 91.44)
 		)
 		(stroke
 			(width 0)
@@ -12013,7 +12013,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 87.63 87.63 0)
+		(at 87.63 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12023,7 +12023,7 @@
 		(dnp no)
 		(uuid "e3a73408-df2d-47b7-8bd0-06afc8834911")
 		(property "Reference" "#PWR026"
-			(at 87.63 91.44 0)
+			(at 87.63 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12034,7 +12034,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 87.63 83.82 0)
+			(at 87.63 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12044,7 +12044,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 87.63 0)
+			(at 87.63 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12055,7 +12055,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 87.63 0)
+			(at 87.63 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12066,7 +12066,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 87.63 87.63 0)
+			(at 87.63 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
