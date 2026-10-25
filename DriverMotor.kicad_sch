@@ -2905,6 +2905,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 54.61) (xy 54.61 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2432f46d-4be2-407b-9deb-ee8258623d5d")
+	)
+	(wire
+		(pts
 			(xy 53.34 68.58) (xy 53.34 67.31)
 		)
 		(stroke
@@ -3095,6 +3105,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 52.07) (xy 54.61 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "617806e5-264a-44c9-948a-d5bec448e332")
+	)
+	(wire
+		(pts
 			(xy 59.69 152.4) (xy 62.23 152.4)
 		)
 		(stroke
@@ -3165,7 +3185,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 59.69) (xy 54.61 59.69)
+			(xy 46.99 59.69) (xy 48.26 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3275,7 +3295,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 54.61) (xy 54.61 54.61)
+			(xy 46.99 54.61) (xy 48.26 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3585,7 +3605,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 52.07) (xy 54.61 52.07)
+			(xy 46.99 52.07) (xy 48.26 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3752,6 +3772,16 @@
 			(type default)
 		)
 		(uuid "d3639fb1-5ca8-4221-8b9d-02d9eea403f9")
+	)
+	(wire
+		(pts
+			(xy 53.34 59.69) (xy 54.61 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d504aec6-ee7b-4ce4-9094-70dcae432d7e")
 	)
 	(wire
 		(pts
@@ -3953,49 +3983,20 @@
 		)
 		(uuid "ffec27af-f0b7-4971-8221-62473ec3ef3a")
 	)
-	(label "OUTB"
-		(at 50.8 161.29 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8e5ec7fd-bf2c-4fa9-9b8c-c244aa802bba")
-	)
-	(label "OUTA"
-		(at 91.44 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a464e1c4-2573-4dc3-be2c-bba06f232f05")
-	)
-	(label "OUTA"
+	(hierarchical_label "OUTA"
+		(shape bidirectional)
 		(at 50.8 151.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "aff68642-92f2-4632-8311-89f799e7cc31")
-	)
-	(label "OUTB"
-		(at 91.44 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b08050b7-0cad-4028-b8c0-f95428245fba")
+		(uuid "0b33103c-8ec4-440b-825b-93c03c826c74")
 	)
 	(hierarchical_label "EN{slash}IN1_MCU"
 		(shape input)
-		(at 53.34 52.07 180)
+		(at 46.99 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4025,6 +4026,17 @@
 			(justify right)
 		)
 		(uuid "306b11b0-f8a2-4578-addd-7beb6ff91c18")
+	)
+	(hierarchical_label "OUTB"
+		(shape bidirectional)
+		(at 50.8 161.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "398f18b0-868a-4b05-b420-06ce143c1f69")
 	)
 	(hierarchical_label "TIM_ENC_A"
 		(shape output)
@@ -4072,7 +4084,7 @@
 	)
 	(hierarchical_label "PH{slash}IN2_MCU"
 		(shape input)
-		(at 53.34 54.61 180)
+		(at 46.99 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4114,6 +4126,17 @@
 		)
 		(uuid "d26cf8b5-b1ab-4db3-b091-3b0cf13aaba6")
 	)
+	(hierarchical_label "OUTA"
+		(shape bidirectional)
+		(at 91.44 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d28062be-b189-4f79-a864-dcc419f3590f")
+	)
 	(hierarchical_label "ENC_A_IN"
 		(shape input)
 		(at 147.32 43.18 180)
@@ -4138,7 +4161,7 @@
 	)
 	(hierarchical_label "NSLEEP_MCU"
 		(shape input)
-		(at 53.34 59.69 180)
+		(at 46.99 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4146,6 +4169,17 @@
 			(justify right)
 		)
 		(uuid "f2cb3424-2a9c-4891-93b2-59c251e9ed36")
+	)
+	(hierarchical_label "OUTB"
+		(shape bidirectional)
+		(at 91.44 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fac2a10f-fb42-47a8-87f6-79dc26942a69")
 	)
 	(symbol
 		(lib_id "Device:R_Small")
@@ -5968,6 +6002,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 50.8 59.69 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4c9c9909-53ec-4aa4-9ea2-958bb6a192e8")
+		(property "Reference" "R53"
+			(at 54.356 58.928 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 50.8 61.722 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 50.8 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 50.8 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "42e8dc40-60a4-4cc0-945a-3c21678bac3c")
+		)
+		(pin "1"
+			(uuid "e7b3d079-f310-4948-a838-c3ed5bcc6858")
+		)
+		(instances
+			(project "KinetiCoreDC"
+				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/64bd8f60-58d6-4027-b428-d45fc2eafed0"
+					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xGxx:SN74LVC2G14DBV")
 		(at 193.04 45.72 0)
 		(unit 1)
@@ -6055,6 +6169,86 @@
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/64bd8f60-58d6-4027-b428-d45fc2eafed0"
 					(reference "U16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 50.8 54.61 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "52b491a6-407c-432e-b914-609c56b6e2e7")
+		(property "Reference" "R60"
+			(at 54.356 53.848 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 50.8 56.642 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 50.8 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 50.8 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "aff74d82-6fc3-484c-9d56-4377d927a939")
+		)
+		(pin "1"
+			(uuid "32ea97e7-3578-4da2-843f-17c302bb7219")
+		)
+		(instances
+			(project "KinetiCoreDC"
+				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/64bd8f60-58d6-4027-b428-d45fc2eafed0"
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -9930,6 +10124,86 @@
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/64bd8f60-58d6-4027-b428-d45fc2eafed0"
 					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 50.8 52.07 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ebb56c91-222a-4cce-931e-6a07fd6e9b7f")
+		(property "Reference" "R61"
+			(at 54.356 51.308 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 50.8 50.292 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 50.8 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 50.8 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b606f9af-f3d7-4991-a9e8-772f326d1a94")
+		)
+		(pin "1"
+			(uuid "43d9eced-d66f-4536-9a50-70f7ad1a960c")
+		)
+		(instances
+			(project "KinetiCoreDC"
+				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/64bd8f60-58d6-4027-b428-d45fc2eafed0"
+					(reference "R61")
 					(unit 1)
 				)
 			)
