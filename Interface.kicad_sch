@@ -3612,9 +3612,9 @@
 		)
 		(uuid "68febe03-963e-4cfe-85b6-0f781901a19f")
 	)
-	(text "UART activity LED indicators (pulse stretcher)"
+	(text "UART N°1 activity LED indicators (pulse stretcher)"
 		(exclude_from_sim no)
-		(at 45.974 16.764 0)
+		(at 49.276 16.764 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -3651,9 +3651,9 @@
 		)
 		(uuid "e5a9d4eb-03cc-4a6b-b5e8-3ca9f0777cf0")
 	)
-	(text "UART activity LED indicators (pulse stretcher)"
+	(text "UART N°2 activity LED indicators (pulse stretcher)"
 		(exclude_from_sim no)
-		(at 45.974 67.31 0)
+		(at 49.276 67.564 0)
 		(effects
 			(font
 				(size 1.778 1.778)

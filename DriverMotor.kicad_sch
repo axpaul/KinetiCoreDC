@@ -4775,7 +4775,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "22R"
 			(at 209.55 98.298 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6769,7 +6769,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "22R"
 			(at 201.93 50.292 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8262,7 +8262,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "22R"
 			(at 209.55 107.442 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9615,7 +9615,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "22R"
 			(at 201.93 41.148 90)
 			(show_name no)
 			(do_not_autoplace no)
