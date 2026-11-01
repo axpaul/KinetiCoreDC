@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "KinetiCoreDC - Driver Motor ")
-		(date "2026-10-09")
+		(date "2026-11-01")
 		(rev "V°1")
 		(company "BerryRocket")
 		(comment 1 "Paul Miailhe")
