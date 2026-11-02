@@ -2342,7 +2342,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 138.43) (xy 177.8 138.43)
+			(xy 176.53 139.7) (xy 177.8 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2392,7 +2392,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 128.27) (xy 177.8 128.27)
+			(xy 176.53 127) (xy 177.8 127)
 		)
 		(stroke
 			(width 0)
@@ -2552,7 +2552,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 140.97) (xy 177.8 140.97)
+			(xy 176.53 142.24) (xy 177.8 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2642,7 +2642,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 125.73) (xy 177.8 125.73)
+			(xy 176.53 124.46) (xy 177.8 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3312,7 +3312,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 135.89) (xy 177.8 135.89)
+			(xy 176.53 137.16) (xy 177.8 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3502,7 +3502,7 @@
 		(uuid "2a59ce17-819b-4b52-bd11-73aa9b76c41e")
 	)
 	(label "TIM14_CH1"
-		(at 176.53 140.97 180)
+		(at 176.53 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3552,7 +3552,7 @@
 		(uuid "39ab791a-993a-48e7-ab43-185ba65a41e2")
 	)
 	(label "VM_MONITOR_EN"
-		(at 176.53 128.27 180)
+		(at 176.53 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3612,7 +3612,7 @@
 		(uuid "54275309-9bf3-4c32-a1e9-a75e4b9d12d0")
 	)
 	(label "TIM16_CH1"
-		(at 176.53 135.89 180)
+		(at 176.53 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3762,7 +3762,7 @@
 		(uuid "9264fa01-2b49-40b9-9a63-88a74abc4d7d")
 	)
 	(label "ADC1_IN4"
-		(at 176.53 125.73 180)
+		(at 176.53 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3943,7 +3943,7 @@
 		(uuid "ee6b228a-8e76-40ef-8c53-07316f9736d7")
 	)
 	(label "TIM17_CH1"
-		(at 176.53 138.43 180)
+		(at 176.53 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6326,7 +6326,7 @@
 			)
 		)
 		(pin "ADC_VM" output
-			(at 177.8 125.73 180)
+			(at 177.8 124.46 180)
 			(uuid "81ba789a-be68-401c-a658-b3622d3b37bf")
 			(effects
 				(font
@@ -6336,7 +6336,7 @@
 			)
 		)
 		(pin "VM_MONITOR_EN" input
-			(at 177.8 128.27 180)
+			(at 177.8 127 180)
 			(uuid "00005279-38d0-44ba-8c3d-f39d72672481")
 			(effects
 				(font
@@ -6346,7 +6346,7 @@
 			)
 		)
 		(pin "BLUE_MCU" input
-			(at 177.8 140.97 180)
+			(at 177.8 142.24 180)
 			(uuid "1eaed010-d37a-4664-94ab-ffc240117f85")
 			(effects
 				(font
@@ -6356,7 +6356,7 @@
 			)
 		)
 		(pin "GREEN_MCU" output
-			(at 177.8 138.43 180)
+			(at 177.8 139.7 180)
 			(uuid "0a347366-9362-4a72-a143-c5f393667525")
 			(effects
 				(font
@@ -6366,8 +6366,18 @@
 			)
 		)
 		(pin "RED_MCU" output
-			(at 177.8 135.89 180)
+			(at 177.8 137.16 180)
 			(uuid "088dac13-f2de-4733-b26a-fa81ac056a9b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BUZZER_MCU" input
+			(at 177.8 132.08 180)
+			(uuid "3f3b3f92-1ad4-49d7-a3cb-972003007278")
 			(effects
 				(font
 					(size 1.27 1.27)

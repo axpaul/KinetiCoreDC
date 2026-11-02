@@ -3692,7 +3692,7 @@
 	)
 	(rectangle
 		(start 172.72 102.87)
-		(end 237.49 148.59)
+		(end 247.65 146.05)
 		(stroke
 			(width 0.0508)
 			(type solid)
@@ -3793,6 +3793,16 @@
 		)
 		(uuid "466b09c2-58ee-4b55-b9a4-e7d9b49fa2cd")
 	)
+	(text "Low-Side PWM Audio"
+		(exclude_from_sim no)
+		(at 184.404 108.458 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6116e548-cbe9-403f-9ebe-98fe6cff63e2")
+	)
 	(text "Driver Buzzer\n"
 		(exclude_from_sim no)
 		(at 183.134 105.664 0)
@@ -3878,6 +3888,26 @@
 			)
 		)
 		(uuid "f48fd7ae-4427-49d3-9fe8-45af84039a48")
+	)
+	(text_box "• Control: BSS138 N-MOSFET (Active-HIGH PWM, typ. 4 kHz)\n• Safety: 10 kΩ gate pull-down prevents parasitic chirp at boot\n• Supply: +3.3V logic rail | Low-current piezo recommended (< 15 mA)"
+		(exclude_from_sim no)
+		(at 172.72 146.05 0)
+		(size 74.93 8.0376)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "0e5ff1ca-780d-433d-857c-22f69f7eb349")
 	)
 	(text_box "• Window thresholds (LTC4365, Recovery delay: 36 ms, 5% hysteresis, Max 16V for MCP1703 LDO):\n  - [Default] 2S & 3S Compatible: UVLO = 5.90V (6.20V rise) | OVLO = 14.75V (14.01V fall) -> R_top=2.7MΩ, R_mid=150kΩ, R_bot=100kΩ\n  - 2S LiPo Optimized (7.4V):     UVLO = 6.45V (6.78V rise) | OVLO = 10.84V (10.30V fall) -> R_top=2.0MΩ, R_mid=68kΩ,  R_bot=100kΩ\n  - 3S LiPo Optimized (11.1V):    UVLO = 9.15V (9.61V rise) | OVLO = 14.28V (13.57V fall) -> R_top=2.7MΩ, R_mid=56kΩ,  R_bot=100kΩ\n  - 9V Battery (6LR61 / Li-Ion):  UVLO = 5.50V (5.78V rise) | OVLO = 11.00V (10.45V fall) -> R_top=2.0MΩ, R_mid=100kΩ, R_bot=100kΩ\n• Protection: Reverse polarity to -40V (Back-to-back N-MOS) & 30V TVS clamp\n• SHDN_EXT: Active-LOW (<0.4V = Sleep <10µA, 510kΩ pull-up to VIN)\n• NFAULT_EXT: Open-drain active-LOW (Requires external pull-up on host board)"
 		(exclude_from_sim no)
@@ -4002,7 +4032,7 @@
 		(uuid "660bdf25-35ed-47af-9afc-81e9abd24b59")
 	)
 	(junction
-		(at 212.09 114.3)
+		(at 213.36 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71e8fe36-087f-433f-88bd-d09ea267e847")
@@ -4086,13 +4116,13 @@
 		(uuid "cba4e8e3-5ba4-492d-9fda-b724330ac635")
 	)
 	(junction
-		(at 212.09 121.92)
+		(at 213.36 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ccf95f17-7063-42f6-a84b-265fff507a05")
 	)
 	(junction
-		(at 203.2 129.54)
+		(at 204.47 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3c2523d-76a8-4cbc-820a-a81b5d25a965")
@@ -4161,7 +4191,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 120.65) (xy 212.09 120.65)
+			(xy 214.63 119.38) (xy 213.36 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4191,7 +4221,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 129.54) (xy 203.2 129.54)
+			(xy 203.2 128.27) (xy 204.47 128.27)
 		)
 		(stroke
 			(width 0)
@@ -4221,7 +4251,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 113.03) (xy 212.09 114.3)
+			(xy 213.36 111.76) (xy 213.36 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4411,7 +4441,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 114.3) (xy 212.09 115.57)
+			(xy 213.36 113.03) (xy 213.36 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4441,7 +4471,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 121.92) (xy 209.55 120.65)
+			(xy 210.82 120.65) (xy 210.82 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4521,7 +4551,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 121.92) (xy 212.09 124.46)
+			(xy 213.36 120.65) (xy 213.36 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4611,7 +4641,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 129.54) (xy 204.47 129.54)
+			(xy 204.47 128.27) (xy 205.74 128.27)
 		)
 		(stroke
 			(width 0)
@@ -4621,7 +4651,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 115.57) (xy 212.09 115.57)
+			(xy 214.63 114.3) (xy 213.36 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4961,7 +4991,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 114.3) (xy 212.09 114.3)
+			(xy 210.82 113.03) (xy 213.36 113.03)
 		)
 		(stroke
 			(width 0)
@@ -5031,7 +5061,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 134.62) (xy 212.09 139.7)
+			(xy 213.36 133.35) (xy 213.36 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5071,7 +5101,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 121.92) (xy 212.09 121.92)
+			(xy 210.82 120.65) (xy 213.36 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5131,7 +5161,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 129.54) (xy 196.85 129.54)
+			(xy 196.85 128.27) (xy 198.12 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5201,7 +5231,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 114.3) (xy 209.55 115.57)
+			(xy 210.82 113.03) (xy 210.82 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5211,7 +5241,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 137.16) (xy 203.2 139.7)
+			(xy 204.47 135.89) (xy 204.47 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5261,7 +5291,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 120.65) (xy 212.09 121.92)
+			(xy 213.36 119.38) (xy 213.36 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5321,7 +5351,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 129.54) (xy 203.2 132.08)
+			(xy 204.47 128.27) (xy 204.47 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5432,7 +5462,7 @@
 	)
 	(hierarchical_label "BUZZER_MCU"
 		(shape input)
-		(at 195.58 129.54 180)
+		(at 196.85 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5823,7 +5853,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 212.09 139.7 0)
+		(at 213.36 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5833,7 +5863,7 @@
 		(dnp no)
 		(uuid "06008f2a-0b38-4eff-b9d1-004335d93105")
 		(property "Reference" "#PWR05"
-			(at 212.09 146.05 0)
+			(at 213.36 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5844,7 +5874,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 212.09 143.51 0)
+			(at 213.36 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5854,7 +5884,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 139.7 0)
+			(at 213.36 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5865,7 +5895,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 139.7 0)
+			(at 213.36 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5876,7 +5906,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 212.09 139.7 0)
+			(at 213.36 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6320,7 +6350,7 @@
 	)
 	(symbol
 		(lib_id "Device:Buzzer")
-		(at 215.9 118.11 0)
+		(at 217.17 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6328,10 +6358,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1b90de6a-9849-42e4-a040-21dd9ed139d1")
 		(property "Reference" "BZ1"
-			(at 219.71 116.8399 0)
+			(at 220.726 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6341,8 +6370,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Buzzer"
-			(at 219.71 119.3799 0)
+		(property "Value" "PKMCS0909E4000-R1"
+			(at 215.138 121.412 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6352,8 +6381,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Buzzer_Beeper:Buzzer_12x9.5RM7.6"
-			(at 215.265 115.57 90)
+		(property "Footprint" "Buzzer_Beeper:Buzzer_Murata_PKMCS0909E"
+			(at 216.535 114.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6364,7 +6393,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.265 115.57 90)
+			(at 216.535 114.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6375,7 +6404,7 @@
 			)
 		)
 		(property "Description" "Buzzer, polarized"
-			(at 215.9 118.11 0)
+			(at 217.17 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6650,7 +6679,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 199.39 129.54 90)
+		(at 200.66 128.27 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6660,7 +6689,7 @@
 		(dnp no)
 		(uuid "3146a649-2d56-4ca5-b38d-54922bc57ad9")
 		(property "Reference" "R52"
-			(at 199.39 131.318 90)
+			(at 200.66 130.048 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6670,7 +6699,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 199.39 127.762 90)
+			(at 200.66 126.492 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6680,7 +6709,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 199.39 129.54 0)
+			(at 200.66 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6691,7 +6720,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 129.54 0)
+			(at 200.66 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6702,7 +6731,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 199.39 129.54 0)
+			(at 200.66 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7134,7 +7163,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 203.2 139.7 0)
+		(at 204.47 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7144,7 +7173,7 @@
 		(dnp no)
 		(uuid "42493fb8-5099-4689-9e9f-b41f0224e760")
 		(property "Reference" "#PWR04"
-			(at 203.2 146.05 0)
+			(at 204.47 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7155,7 +7184,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.2 143.51 0)
+			(at 204.47 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7165,7 +7194,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 139.7 0)
+			(at 204.47 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7176,7 +7205,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 139.7 0)
+			(at 204.47 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7187,7 +7216,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 139.7 0)
+			(at 204.47 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8004,7 +8033,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 212.09 113.03 0)
+		(at 213.36 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8014,7 +8043,7 @@
 		(dnp no)
 		(uuid "67eb8805-f401-44f5-a2bf-da3a88d5f346")
 		(property "Reference" "#PWR0126"
-			(at 212.09 116.84 0)
+			(at 213.36 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8025,7 +8054,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 212.09 108.712 0)
+			(at 213.36 107.442 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8035,7 +8064,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 113.03 0)
+			(at 213.36 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8046,7 +8075,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 113.03 0)
+			(at 213.36 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8057,7 +8086,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 212.09 113.03 0)
+			(at 213.36 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9144,7 +9173,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 209.55 118.11 90)
+		(at 210.82 116.84 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -9155,7 +9184,7 @@
 		(dnp no)
 		(uuid "bb9676d3-7fd0-40a5-876a-f71ac1f955cb")
 		(property "Reference" "D17"
-			(at 207.01 116.8399 90)
+			(at 208.28 115.5699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9166,7 +9195,7 @@
 			)
 		)
 		(property "Value" "1N4148WT"
-			(at 207.01 119.3799 90)
+			(at 208.28 118.1099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9177,7 +9206,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 209.55 118.11 90)
+			(at 210.82 116.84 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9188,7 +9217,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 209.55 118.11 90)
+			(at 210.82 116.84 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9199,7 +9228,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 209.55 118.11 0)
+			(at 210.82 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9210,7 +9239,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 209.55 118.11 0)
+			(at 210.82 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9221,7 +9250,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 209.55 118.11 0)
+			(at 210.82 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9248,7 +9277,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:BSS138")
-		(at 209.55 129.54 0)
+		(at 210.82 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9256,10 +9285,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bbb9342b-271d-45a2-abed-0c683653300f")
 		(property "Reference" "Q4"
-			(at 215.9 128.2699 0)
+			(at 215.9 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9270,7 +9298,7 @@
 			)
 		)
 		(property "Value" "BSS138"
-			(at 215.9 130.8099 0)
+			(at 215.9 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9281,7 +9309,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 214.63 131.445 0)
+			(at 215.9 130.175 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9294,7 +9322,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 214.63 133.35 0)
+			(at 215.9 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9306,7 +9334,7 @@
 			)
 		)
 		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 209.55 129.54 0)
+			(at 210.82 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9816,7 +9844,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 203.2 134.62 180)
+		(at 204.47 133.35 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9826,7 +9854,7 @@
 		(dnp no)
 		(uuid "d64ea098-58e5-4a17-8d44-6a23667fe12f")
 		(property "Reference" "R95"
-			(at 205.74 135.382 0)
+			(at 207.01 134.112 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9836,7 +9864,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 205.994 133.604 0)
+			(at 207.264 132.334 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9846,7 +9874,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 203.2 134.62 0)
+			(at 204.47 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9857,7 +9885,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 134.62 0)
+			(at 204.47 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9868,7 +9896,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 203.2 134.62 0)
+			(at 204.47 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
