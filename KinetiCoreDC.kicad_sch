@@ -2299,16 +2299,32 @@
 		(uuid "4407a591-1e1e-4b57-84bd-a2b85bb0834d")
 	)
 	(no_connect
+		(at 177.8 44.45)
+		(uuid "5336f00c-ee29-4f2c-ad8c-4748c0a37a69")
+	)
+	(no_connect
 		(at 99.06 95.25)
 		(uuid "58d247e7-5c97-4746-86ee-a014c3ce368b")
+	)
+	(no_connect
+		(at 227.33 44.45)
+		(uuid "6c466eb2-b9e8-4adc-a06e-e3077c9dfea0")
 	)
 	(no_connect
 		(at 63.5 87.63)
 		(uuid "7714316b-4c7e-4279-b923-682e29e0bad7")
 	)
 	(no_connect
+		(at 177.8 58.42)
+		(uuid "80c137f9-fd36-4688-a40d-6917135c7eae")
+	)
+	(no_connect
 		(at 99.06 115.57)
 		(uuid "8ac266fa-38d4-4a21-9900-437a1d0eb403")
+	)
+	(no_connect
+		(at 227.33 41.91)
+		(uuid "ae7ac3da-d7fe-44fe-824f-9ca9f3fe700d")
 	)
 	(no_connect
 		(at 63.5 105.41)
@@ -2319,12 +2335,24 @@
 		(uuid "c6ff60fd-47be-4297-8cfd-5b47c1603860")
 	)
 	(no_connect
+		(at 177.8 41.91)
+		(uuid "c81b5624-aefb-4483-8eed-43566112cd2f")
+	)
+	(no_connect
 		(at 99.06 143.51)
 		(uuid "c9601415-41a5-4587-832e-d5a3fffb76a9")
 	)
 	(no_connect
 		(at 99.06 140.97)
 		(uuid "cf37e72f-ab57-4cd6-ba64-4f5e755cbf73")
+	)
+	(no_connect
+		(at 213.36 44.45)
+		(uuid "ef5e4d90-44a2-43e3-83db-f5657c05f6e4")
+	)
+	(no_connect
+		(at 213.36 41.91)
+		(uuid "f01bf928-7a6a-43f7-b549-bda0bec916be")
 	)
 	(no_connect
 		(at 99.06 97.79)
@@ -2399,6 +2427,16 @@
 			(type default)
 		)
 		(uuid "1350c506-f815-4316-9309-624c3bbc1e36")
+	)
+	(wire
+		(pts
+			(xy 264.16 66.04) (xy 269.24 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14043482-152d-41b2-82b5-40cff4dffd3f")
 	)
 	(wire
 		(pts
@@ -2542,16 +2580,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 41.91) (xy 227.33 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3924713f-c801-4272-aa81-838f7af170e3")
-	)
-	(wire
-		(pts
 			(xy 62.23 100.33) (xy 63.5 100.33)
 		)
 		(stroke
@@ -2642,6 +2670,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 63.5) (xy 269.24 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ea5d3a5-2d8c-4eb3-bfb9-cfb601780a93")
+	)
+	(wire
+		(pts
 			(xy 40.64 74.93) (xy 41.91 74.93)
 		)
 		(stroke
@@ -2659,16 +2697,6 @@
 			(type default)
 		)
 		(uuid "51c5cf6a-516f-4ede-9a50-ea3267513a0d")
-	)
-	(wire
-		(pts
-			(xy 175.26 44.45) (xy 177.8 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "522cf7c8-c8de-484c-bea4-d1b4e9636131")
 	)
 	(wire
 		(pts
@@ -2802,6 +2830,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 66.04) (xy 259.08 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "726edd07-232e-42b7-970f-938bc8042a9a")
+	)
+	(wire
+		(pts
 			(xy 99.06 128.27) (xy 100.33 128.27)
 		)
 		(stroke
@@ -2819,16 +2857,6 @@
 			(type default)
 		)
 		(uuid "7315dc0c-745a-4a8e-8545-cb951f04b3dc")
-	)
-	(wire
-		(pts
-			(xy 176.53 58.42) (xy 177.8 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "734b727e-b5a9-41e7-a8b6-f0ba8d0bfd2c")
 	)
 	(wire
 		(pts
@@ -3042,6 +3070,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 63.5) (xy 259.08 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a663604a-5920-4dfa-9db5-bebc2ffb7a8b")
+	)
+	(wire
+		(pts
 			(xy 213.36 128.27) (xy 227.33 128.27)
 		)
 		(stroke
@@ -3229,26 +3267,6 @@
 			(type default)
 		)
 		(uuid "d152b581-11f6-4f9f-9890-02b814e4f8b7")
-	)
-	(wire
-		(pts
-			(xy 213.36 44.45) (xy 227.33 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1b95f4e-430c-4444-bff3-9c7ce841db5a")
-	)
-	(wire
-		(pts
-			(xy 175.26 41.91) (xy 177.8 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3d24221-0355-4533-85fa-0b84af0c29af")
 	)
 	(wire
 		(pts
@@ -3781,6 +3799,16 @@
 		)
 		(uuid "7275eb11-a3a1-437b-a7c4-ce82d2e6360a")
 	)
+	(label "USART3_RX"
+		(at 269.24 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d94e363-25bc-464c-9a08-b5e3aacb48dd")
+	)
 	(label "SPI2_MOSI"
 		(at 269.24 72.39 0)
 		(effects
@@ -3810,16 +3838,6 @@
 			(justify left bottom)
 		)
 		(uuid "91894c28-c321-417f-a651-a1d34860c01c")
-	)
-	(label "OE_VCP"
-		(at 176.53 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9264fa01-2b49-40b9-9a63-88a74abc4d7d")
 	)
 	(label "ADC1_IN4"
 		(at 176.53 124.46 180)
@@ -3932,16 +3950,6 @@
 		)
 		(uuid "d714b92b-26e6-4457-bc6c-c323465c1f8c")
 	)
-	(label "USART3_RX"
-		(at 175.26 44.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dbbad1be-b31e-4e75-80c8-2f9c77348969")
-	)
 	(label "TIM3_CH2"
 		(at 176.53 78.74 180)
 		(effects
@@ -4002,6 +4010,16 @@
 		)
 		(uuid "eec89b40-ee44-4007-979b-773e4ec81d45")
 	)
+	(label "USART3_TX"
+		(at 269.24 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f27fc06f-f8a6-4710-b20e-c5f96444dea0")
+	)
 	(label "EXTI3"
 		(at 176.53 85.09 180)
 		(effects
@@ -4021,16 +4039,6 @@
 			(justify left bottom)
 		)
 		(uuid "fab13195-dcd7-4ff8-ae7d-c3397b1a8692")
-	)
-	(label "USART3_TX"
-		(at 175.26 41.91 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fc003527-c487-4c4d-bdfe-54f998a24c13")
 	)
 	(label "SWDIO"
 		(at 100.33 100.33 0)
@@ -4276,6 +4284,86 @@
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 261.62 63.5 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "266fffaf-ede9-4d78-910e-5cef118f715a")
+		(property "Reference" "R96"
+			(at 257.81 62.738 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 265.684 62.484 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 261.62 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 261.62 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "82bb7cde-5387-4bac-a1f1-226ca7474df3")
+		)
+		(pin "1"
+			(uuid "06a0f2fe-a3c5-4132-a1eb-ddcfb06f2904")
+		)
+		(instances
+			(project "KinetiCoreDC"
+				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4"
+					(reference "R96")
 					(unit 1)
 				)
 			)
@@ -4750,6 +4838,86 @@
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 261.62 66.04 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4783b50b-3fb0-41c9-b1dd-1b7d7aa0bde4")
+		(property "Reference" "R97"
+			(at 257.81 65.278 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 265.684 65.024 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 261.62 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 261.62 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7a1ae0e0-55b3-490a-b3e3-764d2d6443a9")
+		)
+		(pin "1"
+			(uuid "e102ea46-a736-4d0d-afbe-e1e67cd489eb")
+		)
+		(instances
+			(project "KinetiCoreDC"
+				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4"
+					(reference "R97")
 					(unit 1)
 				)
 			)
@@ -6813,6 +6981,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "VPC_RX_MCU" output
+			(at 255.27 66.04 0)
+			(uuid "caebdaae-8e3e-4c6d-bee3-baead7f899be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VPC_TX_MCU" input
+			(at 255.27 63.5 0)
+			(uuid "4ebeb6a0-e94c-4210-9048-121c0d0b2070")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

@@ -661,7 +661,7 @@
         "uuid": "ad728afb-7a1e-46d6-a0a8-a62e241bf0c4"
       }
     ],
-    "used_designators": "Y2,#PWR41,U13",
+    "used_designators": "Y2,#PWR41,#PWR137-140,U13,R96-97,J15",
     "variants": []
   },
   "sheets": [
