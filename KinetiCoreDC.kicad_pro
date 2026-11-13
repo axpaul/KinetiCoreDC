@@ -661,7 +661,7 @@
         "uuid": "ad728afb-7a1e-46d6-a0a8-a62e241bf0c4"
       }
     ],
-    "used_designators": "Y2,#PWR41,#PWR137-140,U13,R96-97,J15",
+    "used_designators": "Y2,D10-11,D17,#PWR30,#PWR41,#PWR47-51,#PWR54-63,#PWR89,#PWR93,#PWR97-104,#PWR106-111,#PWR119,#PWR135,#PWR137-140,U1-2,U5,U10,U13,U16,U18,R19,R35-41,R43,R55,R64,R67-70,R96-97,J14-15,C18-23,C28-34,TP1-3",
     "variants": []
   },
   "sheets": [
@@ -672,10 +672,6 @@
     [
       "f6a886ae-cdf7-407e-a301-78e631985a76",
       "InterfaceSheet"
-    ],
-    [
-      "64bd8f60-58d6-4027-b428-d45fc2eafed0",
-      "DriverMotorSheet"
     ],
     [
       "41fff61d-8b1a-4097-860c-8c796f203602",
