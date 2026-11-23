@@ -3215,12 +3215,6 @@
 		(color 0 0 0 0)
 		(uuid "f4d0ae53-b1e0-470a-b76c-9734c139898e")
 	)
-	(junction
-		(at 138.43 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fbafe952-5e4c-4d58-82f9-3af5eaef6c32")
-	)
 	(no_connect
 		(at 212.09 41.91)
 		(uuid "55406fb7-15da-4bb6-ae1b-2ca5481c63d2")
@@ -3527,7 +3521,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 109.22) (xy 138.43 107.95)
+			(xy 138.43 107.95) (xy 138.43 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3667,16 +3661,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 107.95) (xy 138.43 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6980c64d-253a-4ba7-b1b9-80f03221ab99")
-	)
-	(wire
-		(pts
 			(xy 67.31 39.37) (xy 67.31 40.64)
 		)
 		(stroke
@@ -3767,16 +3751,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 107.95) (xy 130.81 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bb6f38c-e15b-48c4-9a24-28db0d5bb648")
-	)
-	(wire
-		(pts
 			(xy 217.17 46.99) (xy 218.44 46.99)
 		)
 		(stroke
@@ -3804,16 +3778,6 @@
 			(type default)
 		)
 		(uuid "82248de5-3371-442c-953d-491b2f0eb521")
-	)
-	(wire
-		(pts
-			(xy 138.43 107.95) (xy 138.43 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82fd1b89-4348-4db7-921d-b7821ae49645")
 	)
 	(wire
 		(pts
@@ -4583,163 +4547,6 @@
 			(justify right)
 		)
 		(uuid "c78b6138-8bb5-4a49-9138-a0bfbf142853")
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 130.81 107.95 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0079331f-bcf3-4691-938a-5efa073f7c82")
-		(property "Reference" "#PWR031"
-			(at 124.46 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 126.746 109.728 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3437ab79-b870-4587-b26a-f001146166e6")
-		)
-		(instances
-			(project "KinetiCoreDC"
-				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/f6a886ae-cdf7-407e-a301-78e631985a76"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 134.62 107.95 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "07a05c0e-b116-48c1-a751-a07c9d560587")
-		(property "Reference" "C12"
-			(at 131.826 109.474 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 133.604 104.902 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 134.62 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 124.46 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "be556b1e-0970-4967-8874-662719921900")
-		)
-		(pin "2"
-			(uuid "b25efb85-4bb1-4b51-9220-76388eba335f")
-		)
-		(instances
-			(project "KinetiCoreDC"
-				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/f6a886ae-cdf7-407e-a301-78e631985a76"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R_Small")
@@ -8208,7 +8015,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 138.43 105.41 0)
+		(at 138.43 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8218,7 +8025,7 @@
 		(dnp no)
 		(uuid "ad273b0c-0a44-4d2e-9076-af4440c41066")
 		(property "Reference" "#PWR030"
-			(at 138.43 109.22 0)
+			(at 138.43 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8229,7 +8036,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 138.43 101.6 0)
+			(at 138.43 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8239,7 +8046,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 105.41 0)
+			(at 138.43 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8250,7 +8057,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 105.41 0)
+			(at 138.43 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8261,7 +8068,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 138.43 105.41 0)
+			(at 138.43 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

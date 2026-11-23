@@ -6852,7 +6852,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SMBJ30CA"
+		(property "Value" "SMBJ15CA"
 			(at 39.37 147.574 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10041,7 +10041,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 223.52 132.08 0)
 			(hide yes)
 			(show_name no)
