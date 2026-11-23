@@ -6132,7 +6132,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "002ea0cc-e3ea-4f6b-8347-540ba41dec60")
-		(property "Reference" "R82"
+		(property "Reference" "R22"
 			(at 58.928 88.138 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6194,7 +6194,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "R82")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -6212,7 +6212,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "01a7d8d7-d503-4770-918f-af6245c28cef")
-		(property "Reference" "R39"
+		(property "Reference" "R30"
 			(at 211.074 109.474 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6274,7 +6274,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "R39")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -6291,7 +6291,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "023e06d0-a7ef-40da-8156-229906c09a34")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR069"
 			(at 59.69 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -6351,7 +6351,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "#PWR068")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -6369,7 +6369,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0248e64b-ce3a-4c41-9d67-9c8188e255ed")
-		(property "Reference" "R46"
+		(property "Reference" "R37"
 			(at 56.896 163.576 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6431,7 +6431,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "R46")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -6448,7 +6448,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "048a5f82-8a8d-4bdf-b20b-a516548791f3")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR067"
 			(at 50.8 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -6509,7 +6509,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "#PWR065")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -6526,7 +6526,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "06008f2a-0b38-4eff-b9d1-004335d93105")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR050"
 			(at 138.43 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -6586,7 +6586,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "#PWR05")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -6603,7 +6603,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "08c2f05c-d742-4e2a-bc63-dce31a0c8177")
-		(property "Reference" "R40"
+		(property "Reference" "R24"
 			(at 243.586 91.186 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6665,7 +6665,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "R40")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -6682,7 +6682,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "096b2277-54e5-4a7a-b2e4-c49bbc82430c")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR052"
 			(at 208.28 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -6742,7 +6742,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "#PWR050")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -6759,7 +6759,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0b89e469-8c10-4453-808e-8ef369d84976")
-		(property "Reference" "C26"
+		(property "Reference" "C24"
 			(at 127.254 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6823,7 +6823,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "C26")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -6841,7 +6841,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "17fb5b70-e3f3-4eff-99cc-fe5f1c2350c9")
-		(property "Reference" "D12"
+		(property "Reference" "D7"
 			(at 45.212 149.606 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6916,7 +6916,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "D12")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -7014,7 +7014,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1beed6af-7618-421b-ac1b-fe3e508fccb9")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR045"
 			(at 205.74 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -7075,7 +7075,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "#PWR049")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -7093,7 +7093,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2318119a-ae60-459e-b8b6-9d5f1997ce7e")
-		(property "Reference" "R36"
+		(property "Reference" "R25"
 			(at 201.676 96.266 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7155,7 +7155,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "R36")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -7172,7 +7172,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "27a6b317-3ecc-4cfe-87a7-fe42cf756252")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR054"
 			(at 204.47 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7233,7 +7233,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "#PWR047")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -7250,7 +7250,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2888c571-0f14-4cb5-8b91-603bb6382367")
-		(property "Reference" "R41"
+		(property "Reference" "R28"
 			(at 244.856 101.346 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7312,7 +7312,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "R41")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -7329,7 +7329,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c03045b-049a-4c56-b54e-6c146f4bc81f")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR053"
 			(at 255.27 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -7389,7 +7389,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "#PWR063")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -7406,7 +7406,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3146a649-2d56-4ca5-b38d-54922bc57ad9")
-		(property "Reference" "R52"
+		(property "Reference" "R21"
 			(at 125.73 85.598 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7468,7 +7468,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "R52")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -7485,7 +7485,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "33e7273a-4000-44d8-94cd-b40ad484e8ef")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR068"
 			(at 90.17 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -7545,7 +7545,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "#PWR073")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -7562,7 +7562,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39c82dbc-f315-47e1-9d5a-7250a72d780d")
-		(property "Reference" "C23"
+		(property "Reference" "C19"
 			(at 257.81 99.314 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7626,7 +7626,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "C23")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -7644,7 +7644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ddd568c-d78b-487e-8f06-58f3db6d60b0")
-		(property "Reference" "U11"
+		(property "Reference" "U9"
 			(at 50.8 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7709,7 +7709,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "U11")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -7726,7 +7726,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "42493fb8-5099-4689-9e9f-b41f0224e760")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR049"
 			(at 129.54 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -7786,7 +7786,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "#PWR04")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -7803,7 +7803,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "45620351-499d-4f0b-90bd-b725000cca10")
-		(property "Reference" "D11"
+		(property "Reference" "D5"
 			(at 140.208 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7879,7 +7879,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "D11")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -7897,7 +7897,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "45e298ab-eb48-4cf8-bb93-5d95450168ab")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR063"
 			(at 232.41 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -7957,7 +7957,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "#PWR057")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -8196,7 +8196,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4a13dd2c-2e73-498c-bd67-97e54b080d93")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR040"
 			(at 64.77 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -8256,7 +8256,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "#PWR071")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -8273,7 +8273,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f63ef73-b112-4d21-8a67-0b4618c6dafa")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR042"
 			(at 50.8 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -8333,7 +8333,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "#PWR069")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -8350,7 +8350,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50966a06-3900-44ad-a235-6de95c50cc2a")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR043"
 			(at 64.77 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -8410,7 +8410,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "#PWR070")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -8427,7 +8427,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50b4632f-2353-4e64-a677-77536ea6d9f4")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR058"
 			(at 232.41 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -8488,7 +8488,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "#PWR056")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -8506,7 +8506,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50fe3515-bcc2-43e1-916a-c23265450cde")
-		(property "Reference" "R37"
+		(property "Reference" "R29"
 			(at 204.47 104.902 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8568,7 +8568,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "R37")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -8586,7 +8586,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "516a7979-99f7-4e22-b92a-0d356a0ce88b")
-		(property "Reference" "R96"
+		(property "Reference" "R18"
 			(at 135.89 73.152 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8648,7 +8648,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "R96")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -8665,7 +8665,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "56d852bf-a89d-46a7-8c06-46d9bafa1481")
-		(property "Reference" "Q2"
+		(property "Reference" "Q3"
 			(at 110.49 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8891,7 +8891,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "Q2")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -8908,7 +8908,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "59ba5d20-f389-40c6-9d02-49143288802f")
-		(property "Reference" "R62"
+		(property "Reference" "R20"
 			(at 58.928 83.058 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8970,7 +8970,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "R62")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -8987,7 +8987,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a8d277a-0e58-42fe-a4ae-325c945f4202")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR066"
 			(at 139.7 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -9047,7 +9047,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "#PWR022")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -9064,7 +9064,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "67eb8805-f401-44f5-a2bf-da3a88d5f346")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR044"
 			(at 138.43 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -9124,7 +9124,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "#PWR0126")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -9141,7 +9141,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6a7cdbac-9c7f-4361-bd27-23b942a9a814")
-		(property "Reference" "R51"
+		(property "Reference" "R34"
 			(at 104.14 144.526 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9203,7 +9203,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "R51")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -9220,7 +9220,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6b41586c-0932-4e6c-a225-42bb6bf928e1")
-		(property "Reference" "C20"
+		(property "Reference" "C21"
 			(at 230.378 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9284,7 +9284,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "C20")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -9301,7 +9301,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ca86615-7254-47db-ad04-c9e3c72e0dd0")
-		(property "Reference" "C21"
+		(property "Reference" "C22"
 			(at 239.268 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9365,7 +9365,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "C21")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -9382,7 +9382,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ef8dd7c-f294-4bd6-b7ed-c6aa975990aa")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR059"
 			(at 241.3 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -9443,7 +9443,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "#PWR058")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -9460,7 +9460,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "73673be3-5d7f-487d-ba4b-bdc950291696")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR046"
 			(at 255.27 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -9521,7 +9521,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "#PWR062")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -9538,7 +9538,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "73c13165-565b-402e-9110-2098dbdcd377")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR060"
 			(at 50.8 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -9599,7 +9599,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "#PWR064")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -9616,7 +9616,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "742d14f7-6866-482a-982d-88ecd1b382c9")
-		(property "Reference" "C24"
+		(property "Reference" "C15"
 			(at 34.798 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9638,7 +9638,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 36.83 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -9680,7 +9680,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "C24")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -9698,7 +9698,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "750e6c99-03c9-4182-a4e1-d9bdafa82347")
-		(property "Reference" "C25"
+		(property "Reference" "C16"
 			(at 66.802 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9720,7 +9720,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 64.77 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -9762,7 +9762,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "C25")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -9779,7 +9779,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d8084f0-3dfb-4e31-b989-1e2dbcaa03aa")
-		(property "Reference" "C19"
+		(property "Reference" "C17"
 			(at 225.298 61.468 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9843,7 +9843,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "C19")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -9861,7 +9861,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "83b693b2-a58c-47fa-a3da-2c5939fa97a2")
-		(property "Reference" "R43"
+		(property "Reference" "R27"
 			(at 251.46 98.298 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9923,7 +9923,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "R43")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -9940,7 +9940,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8586111b-9601-4d2b-995d-1be1eba1bd85")
-		(property "Reference" "R38"
+		(property "Reference" "R26"
 			(at 211.074 94.488 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10002,7 +10002,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "R38")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -10019,7 +10019,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "86dc4061-edd4-49e2-8060-17b38aa83955")
-		(property "Reference" "C18"
+		(property "Reference" "C20"
 			(at 221.488 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10083,7 +10083,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "C18")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -10101,7 +10101,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "87d1d7e2-f053-4926-b914-c7ec1e96a212")
-		(property "Reference" "R59"
+		(property "Reference" "R31"
 			(at 134.366 136.652 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10163,7 +10163,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "R59")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -10180,7 +10180,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "88c5ad57-b07e-4803-bd63-34606841a6a7")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR039"
 			(at 36.83 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -10241,7 +10241,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "#PWR066")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -10259,7 +10259,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d974429-1462-485a-987f-3e648bf0582c")
-		(property "Reference" "R56"
+		(property "Reference" "R32"
 			(at 134.366 145.542 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10321,7 +10321,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "R56")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -10338,7 +10338,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "94e43e42-f554-4fe6-b317-f1951642e935")
-		(property "Reference" "C22"
+		(property "Reference" "C18"
 			(at 250.444 72.644 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10402,7 +10402,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "C22")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -10419,7 +10419,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9cdca930-ebf9-4a68-81d9-5fd8a2cd0de9")
-		(property "Reference" "C36"
+		(property "Reference" "C23"
 			(at 147.32 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10483,7 +10483,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "C36")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -10500,7 +10500,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d869ebf-6936-484d-9d11-c944d1a45503")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR061"
 			(at 129.54 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -10561,7 +10561,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "#PWR074")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -10578,7 +10578,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0cfc87e-4048-4071-9247-3f445f004c24")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR047"
 			(at 48.26 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -10638,7 +10638,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "#PWR090")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -10656,7 +10656,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0e20ce0-0cb1-4f28-bb0d-b41b79fc5522")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR064"
 			(at 241.3 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -10716,7 +10716,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "#PWR059")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -10733,7 +10733,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a23fb1c7-5c5e-4498-9ad9-f0a92524ba84")
-		(property "Reference" "U12"
+		(property "Reference" "U11"
 			(at 96.012 157.734 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10815,7 +10815,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "U12")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -10832,7 +10832,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "acae01ba-4529-4fcd-b071-86cffe8ade7f")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR051"
 			(at 204.47 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -10892,7 +10892,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "#PWR048")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -10909,7 +10909,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bb385a71-d016-4a78-9e74-59e69baecd1b")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR055"
 			(at 208.28 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -10969,7 +10969,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "#PWR051")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -10986,7 +10986,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bbb9342b-271d-45a2-abed-0c683653300f")
-		(property "Reference" "Q4"
+		(property "Reference" "Q1"
 			(at 140.97 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11056,7 +11056,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "Q4")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -11074,7 +11074,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd092b10-5483-48d4-a22b-5b47154f8385")
-		(property "Reference" "Q1"
+		(property "Reference" "Q2"
 			(at 69.85 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11300,7 +11300,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "Q1")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -11318,7 +11318,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2e330ae-6bbe-4085-b063-da4981fbfadb")
-		(property "Reference" "R44"
+		(property "Reference" "R35"
 			(at 56.896 148.336 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11380,7 +11380,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "R44")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -11397,7 +11397,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4ce42a6-349e-46bc-abcd-4f93d1e7215c")
-		(property "Reference" "R47"
+		(property "Reference" "R33"
 			(at 76.454 145.288 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11459,7 +11459,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "R47")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -11476,7 +11476,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c7cf9351-3048-4314-b787-350f26c75d76")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR057"
 			(at 223.52 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -11537,7 +11537,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "#PWR054")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -11554,7 +11554,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c8da8225-7930-4f94-8240-0e2acdede2c2")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR048"
 			(at 246.38 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -11614,7 +11614,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "#PWR01")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -11631,7 +11631,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb99acf2-3db1-47eb-9d77-406ab37cf9db")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR056"
 			(at 247.65 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -11691,7 +11691,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "#PWR061")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -11708,7 +11708,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cec67299-5490-4ee1-90dc-3397c4072595")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR041"
 			(at 36.83 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -11768,7 +11768,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "#PWR067")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -11785,7 +11785,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d64ea098-58e5-4a17-8d44-6a23667fe12f")
-		(property "Reference" "R95"
+		(property "Reference" "R23"
 			(at 132.08 89.662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11847,7 +11847,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "R95")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -11865,7 +11865,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e3b52324-f57c-4c22-9328-6ee72782e5ca")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR062"
 			(at 223.52 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -11925,7 +11925,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "#PWR055")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -11942,7 +11942,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e5dd5b04-76d4-4c9a-b12a-397dbe4f0ce1")
-		(property "Reference" "R35"
+		(property "Reference" "R17"
 			(at 128.27 31.242 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12004,7 +12004,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "R35")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -12021,7 +12021,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb66ab99-c936-44b2-9bab-61c2a0fe891c")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR065"
 			(at 129.54 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -12081,7 +12081,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "#PWR075")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -12098,7 +12098,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fa00b25b-130a-4453-98f3-b9c9ad6c0865")
-		(property "Reference" "D18"
+		(property "Reference" "D6"
 			(at 52.07 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12172,7 +12172,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "D18")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -12189,7 +12189,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fde8c3e8-7d42-4294-be73-d80f4ddf95fa")
-		(property "Reference" "D10"
+		(property "Reference" "D4"
 			(at 131.572 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12265,7 +12265,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "D10")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -12282,7 +12282,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fdea6f31-e939-4253-97e4-7d63f30c970c")
-		(property "Reference" "R63"
+		(property "Reference" "R19"
 			(at 58.928 77.978 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12344,7 +12344,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "R63")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -12362,7 +12362,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe706f7e-be2a-4916-b8f3-a774701245c9")
-		(property "Reference" "R45"
+		(property "Reference" "R36"
 			(at 56.896 155.956 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12424,7 +12424,7 @@
 		(instances
 			(project "KinetiCoreDC"
 				(path "/ad728afb-7a1e-46d6-a0a8-a62e241bf0c4/41fff61d-8b1a-4097-860c-8c796f203602"
-					(reference "R45")
+					(reference "R36")
 					(unit 1)
 				)
 			)
